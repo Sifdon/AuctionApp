@@ -1,4 +1,4 @@
-package com.example.hamid_pc.auctionapp.activities;
+package com.example.hamid_pc.auctionapp.auctionapp.activites;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -14,6 +14,8 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.hamid_pc.auctionapp.R;
+import com.example.hamid_pc.auctionapp.auctionapp.fragments.ProductDetailFragment;
+
 
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -84,6 +86,10 @@ public class NavigationActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            ProductDetailFragment productDetailFragment = ProductDetailFragment.newInstance(null, null);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_navigation, productDetailFragment)
+                    .commit();
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -100,4 +106,6 @@ public class NavigationActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }
