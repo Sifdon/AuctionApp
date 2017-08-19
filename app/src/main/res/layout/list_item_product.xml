@@ -7,48 +7,48 @@
                 android:orientation="horizontal"
     >
 
-    <LinearLayout
-        android:id="@+id/thumbnail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:paddingTop="@dimen/list_item_padding_top"
-        android:padding_left="@dimen/activity_horizontal_padding">
+    <!--    <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="@dimen/list_item_padding_top"
+            android:paddingLeft="@dimen/activity_horizontal_padding">
 
-        <ImageView
-            android:id="@+id/list_image"
-            android:layout_width="@dimen/list_image_width"
-            android:layout_height="@dimen/list_image_height"/>
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="@dimen/list_image_width"
+                android:layout_height="@dimen/list_image_height"/>
 
-    </LinearLayout>
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/product_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/thumbnail"
-        android:layout_toRightOf="@id/thumbnail"
-        android:paddingLeft="@dimen/list_item_title_padding"
-        android:text="@string/product_title"/>
+        <TextView
+            android:id="@+id/product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/thumbnail"
+            android:layout_toRightOf="@id/thumbnail"
+            android:paddingLeft="@dimen/list_item_title_padding"
+            android:text="@string/product_title"/>
 
-    <TextView
-        android:id="@+id/product_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/product_title"
-        android:layout_marginTop="@dimen/list_item_text_margin"
-        android:layout_toRightOf="@id/thumbnail"
-        android:paddingLeft="@dimen/list_item_title_padding"
-        android:text="@string/product_title"/>
+        <TextView
+            android:id="@+id/product_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/product_title"
+            android:layout_marginTop="@dimen/list_item_text_margin"
+            android:layout_toRightOf="@id/thumbnail"
+            android:paddingLeft="@dimen/list_item_title_padding"
+            android:text="@string/product_title"/>
 
-    <TextView
-        android:id="@+id/date_countdown"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/product_title"
-        android:layout_marginLeft="@dimen/list_item_countdown_margin"
-        android:layout_marginTop="@dimen/list_item_text_margin"
-        android:layout_toRightOf="@id/product_text"
-        android:paddingLeft="@dimen/list_item_title_padding"
-        android:text="@string/product_title"/>
+        <TextView
+            android:id="@+id/date_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/product_title"
+            android:layout_marginLeft="@dimen/list_item_countdown_margin"
+            android:layout_marginTop="@dimen/list_item_text_margin"
+            android:layout_toRightOf="@id/product_text"
+            android:paddingLeft="@dimen/list_item_title_padding"
+            android:text="@string/product_title"/>-->
 </RelativeLayout>

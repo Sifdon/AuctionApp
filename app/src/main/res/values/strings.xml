@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">AuctionApp</string>
-    <string name="product_text">Just gona stand there and...</string>
+    <string name="product_text">Just gona stand there and</string>
     <string name="product_title">I love the truth</string>
+    <string name="product_image">Product Image</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="action_settings">Settings</string>
+
 </resources>
