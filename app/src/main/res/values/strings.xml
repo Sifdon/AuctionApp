@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">AuctionApp</string>
-    <string name="product_text">Just gona stand there and</string>
-    <string name="product_title">I love the truth</string>
+    <string name="product_desc">This is the product detail</string>
+    <string name="product_title">Product Title</string>
     <string name="product_image">Product Image</string>
+    <string name="product_count_down">Count Down</string>
+    <string name="label_time_picker">Choose Time</string>
+    <string name="label_date_picker">Choose Date</string>
+    <string name="ok">Ok</string>
+    <string name="label_image_picker">Choose Image</string>
+    <string name="button_submit">Submit</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_navigation">NavigationActivity</string>

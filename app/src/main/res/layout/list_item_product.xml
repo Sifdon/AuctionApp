@@ -4,21 +4,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-    >
+                android:orientation="horizontal">
 
-    <!--    <LinearLayout
+        <LinearLayout
             android:id="@+id/thumbnail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:paddingTop="@dimen/list_item_padding_top"
-            android:paddingLeft="@dimen/activity_horizontal_padding">
+            android:layout_alignParentLeft="true">
 
             <ImageView
                 android:id="@+id/list_image"
-                android:layout_width="@dimen/list_image_width"
-                android:layout_height="@dimen/list_image_height"/>
+                android:layout_width="@dimen/thumbnail_width"
+                android:layout_height="@dimen/thumbnail_height"/>
 
         </LinearLayout>
 
@@ -28,27 +25,26 @@
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/thumbnail"
             android:layout_toRightOf="@id/thumbnail"
-            android:paddingLeft="@dimen/list_item_title_padding"
+            android:paddingLeft="@dimen/list_item_padding_left"
+            android:paddingTop="@dimen/list_item_padding_top"
             android:text="@string/product_title"/>
 
         <TextView
             android:id="@+id/product_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/product_title"
-            android:layout_marginTop="@dimen/list_item_text_margin"
+            android:layout_below="@id/product_title"
             android:layout_toRightOf="@id/thumbnail"
-            android:paddingLeft="@dimen/list_item_title_padding"
-            android:text="@string/product_title"/>
+            android:paddingLeft="@dimen/list_item_padding_left"
+            android:paddingTop="@dimen/list_item_padding_top"
+            android:text="@string/product_desc"/>
 
         <TextView
             android:id="@+id/date_countdown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/product_title"
-            android:layout_marginLeft="@dimen/list_item_countdown_margin"
-            android:layout_marginTop="@dimen/list_item_text_margin"
             android:layout_toRightOf="@id/product_text"
-            android:paddingLeft="@dimen/list_item_title_padding"
-            android:text="@string/product_title"/>-->
+            android:paddingTop="@dimen/list_item_padding_top"
+            android:text="@string/product_count_down"/>
 </RelativeLayout>
